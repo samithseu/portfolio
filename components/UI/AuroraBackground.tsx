@@ -18,8 +18,8 @@ export const AuroraBackground = ({
     <main>
       <div
         className={cn(
-          "transition-bg relative h-[100vh] justify-center bg-zinc-50 text-slate-950 dark:bg-zinc-900",
-          className,
+          "transition-bg relative h-[100vh] justify-center bg-zinc-900 text-slate-950",
+          className
         )}
         {...props}
       >
@@ -53,7 +53,7 @@ export const AuroraBackground = ({
               `after:animate-aurora pointer-events-none absolute -inset-[10px] [background-image:var(--white-gradient),var(--aurora)] [background-size:300%,_200%] [background-position:50%_50%,50%_50%] opacity-50 blur-[10px] invert filter will-change-transform [--aurora:repeating-linear-gradient(100deg,var(--green)_10%,var(--yellow)_15%,var(--blue)_20%,var(--purple)_25%,var(--aqua)_30%)] [--dark-gradient:repeating-linear-gradient(100deg,var(--dark0)_0%,var(--dark0)_7%,var(--transparent)_10%,var(--transparent)_12%,var(--dark0)_16%)] [--white-gradient:repeating-linear-gradient(100deg,var(--light0)_0%,var(--light0)_7%,var(--transparent)_10%,var(--transparent)_12%,var(--light0)_16%)] after:absolute after:inset-0 after:[background-image:var(--white-gradient),var(--aurora)] after:[background-size:200%,_100%] after:[background-attachment:fixed] after:mix-blend-difference after:content-[""] dark:[background-image:var(--dark-gradient),var(--aurora)] dark:invert-0 after:dark:[background-image:var(--dark-gradient),var(--aurora)]`,
 
               showRadialGradient &&
-                `[mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,var(--transparent)_70%)]`,
+                `[mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,var(--transparent)_70%)]`
             )}
           ></div>
         </div>
