@@ -11,7 +11,7 @@ export default function Navbar() {
     setIsMenuOpen(false);
   };
   return (
-    <header className="sticky top-4 left-0 z-[1000]">
+    <header className="sticky top-4 left-0 z-[1000] font-bold">
       <nav className="mx-auto flex w-full max-w-[1400px] flex-col items-center justify-between gap-6 rounded-2xl border border-[#d79921] bg-[#3c3836] p-4 backdrop-blur-lg md:flex-row">
         <div className="flex w-full items-center justify-between md:w-auto">
           <Link href="/" className="z-20 text-2xl font-bold text-[#fbf1c7]">

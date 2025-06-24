@@ -26,7 +26,9 @@ const DragIndicator = () => {
             strokeLinejoin="round"
           />
         </svg>
-        <span className="text-sm font-medium">Drag to rotate</span>
+        <span className="text-sm font-medium font-patua_one">
+          Drag to rotate
+        </span>
       </motion.div>
     </div>
   );

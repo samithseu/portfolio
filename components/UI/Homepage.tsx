@@ -14,7 +14,7 @@ name is `;
           <pre className="text-[#fbf1c7] text-[36px] md:text-[64px] sm:text-[44px] font-patua_one">
             {greeting} <span className="text-[#98971a]">{name}.</span>
           </pre>
-          <div className="font-bold text-[#fbf1c7] text-[20px] md:text-[32px] sm:text-[24px]">
+          <div className="font-patua_one text-[#fbf1c7] text-[20px] md:text-[32px] sm:text-[24px]">
             <p>
               I am somewhat of a{" "}
               <span className="text-[#d7992a]">
