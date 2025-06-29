@@ -8,10 +8,10 @@ export default function About() {
     <>
       <div className="mx-auto max-w-[1400px] flex flex-col gap-4 h-full md:flex-row">
         <div className="flex flex-col justify-start w-full pt-8 mb:w-2/6 sm:pl-10">
-          <h1 className="text-[#fabd2f] text-[36px] md:text-[32px] sm:text-[44px] font-patua_one">
+          <h1 className="text-[#fabd2f] text-[24px] md:text-[34px] sm:text-[28px] font-patua_one">
             About Me
           </h1>
-          <p className="text-[#fbf1c7] text-[24px] md:text-[22px] sm:text-[44px] font-patua_one pt-4">
+          <p className="text-[#fbf1c7] text-[18px] md:text-[24px] sm:text-[24px] font-patua_one pt-4">
             {greeting}
             <span className="text-[#8ec87e]">{name}</span>
             {blob0}
@@ -25,7 +25,7 @@ export default function About() {
             <span className="text-[#ff9c08]"> cloud </span>
             {blob2}
           </p>
-          <h1 className="text-[#d3869b] text-[36px] md:text-[32px] sm:text-[44px] font-patua_one pt-4">
+          <h1 className="text-[#d3869b] text-[24px] md:text-[34px] sm:text-[28px] font-patua_one pt-4">
             Technologies
           </h1>
         </div>
