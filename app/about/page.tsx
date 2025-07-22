@@ -6,7 +6,7 @@ export default function About() {
   const blob2: string = `servers. I'm always looking to expand my skillset.`;
   return (
     <>
-      <div className="mx-auto max-w-[1400px] flex flex-col gap-4 h-full md:flex-row">
+      <div className="mx-auto max-w-[1400px] flex flex-col gap-4 h-full">
         <div className="flex flex-col justify-start w-full pt-8 mb:w-2/6 sm:pl-10">
           <h1 className="text-[#fabd2f] text-[24px] md:text-[34px] sm:text-[28px] font-patua_one">
             About Me
@@ -29,6 +29,8 @@ export default function About() {
             Technologies
           </h1>
         </div>
+
+        <div className="flex flex-col h-full md:flex-row"></div>
       </div>
     </>
   );
