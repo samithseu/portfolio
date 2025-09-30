@@ -64,7 +64,8 @@ export default function Navbar() {
               About
             </Link>
           </li>
-          <li>
+          {/* NOTE: Remove Projects Page for now */}
+          {/* <li>
             <Link
               href="/projects"
               onClick={() => setIsMenuOpen(false)}
@@ -72,7 +73,7 @@ export default function Navbar() {
             >
               Projects
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/contact"
